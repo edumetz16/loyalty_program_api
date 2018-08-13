@@ -1,0 +1,42 @@
+# LoyaltyProgramApi.Prize
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**pkPremio** | **String** | Prize ID | [optional] 
+**fkClubPropietario** | **String** | clubID to which the prize belongs | [optional] 
+**fechaCarga** | **Date** | Date in which the prize was created. | [optional] 
+**fechaDesde** | **Date** | Date from which the prize will be valid. | [optional] 
+**fechaHasta** | **Date** | Date until the prize will be available in the catalogue. | [optional] 
+**vencimientoCanje** | **String** | Number of days the user has to access the prize after it has been redeemed. | [optional] 
+**cuentaRegresivaVisible** | **Boolean** | If a countdown will be visible for the user. (NOT IMPORTANT) | [optional] 
+**stock** | **String** | Ammount of stock of prizes that can be redeemed. (NOT IMPORTANT) | [optional] 
+**stockVisible** | **Boolean** | Determins if the ammount of stock will be visible for the user. (NOT IMPORTANT) | [optional] 
+**personasCanjesVisible** | **Boolean** | Determins if number of redemptions by other users will be show. (NOT IMPORTANT) | [optional] 
+**personasCanje** | **String** | Number of users that have redeemed this prize. (NOT IMPORTANT) | [optional] 
+**personasBaseCanje** | **String** | Base number to show of redeemed prizes(NOT IMPORTANT) | [optional] 
+**titulo** | **String** | Prize title. | [optional] 
+**descripcion** | **String** | Prize Description. | [optional] 
+**puntos** | **String** | Points needed to redeem the prize. (NOT IMPORTANT) | [optional] 
+**masPuntos** | **String** | Points needed to redeem the prize if paying part in cash. (NOT IMPORTANT) | [optional] 
+**masPesos** | **String** | Cash needed to redeem the prize if paying part in points. (NOT IMPORTANT) | [optional] 
+**vigenteManual** | **Boolean** | If the prize is available by manual selection. | [optional] 
+**fkUsuarioCarga** | **String** | (NOT IMPORTANT) | [optional] 
+**nivelVisible** | **String** | (NOT IMPORTANT) | [optional] 
+**vigenteParaCampaniasInternas** | **Boolean** | Available for internal Campaigns. | [optional] 
+**comportamiento** | **String** | How does the prize work. This value sets if the prize will be redeemed or if it will respond with a different beahviour. 2 generates a code. 1 prize redeemed with points. 3 other kind of behaviour (pk_Premio of 9889, 9954). | [optional] 
+**calificacionVisible** | **Boolean** | Prize rating available. | [optional] 
+**calificacion** | **String** | Prize rating. | [optional] 
+**palabrasClaves** | **String** | keywords. | [optional] 
+**destacado** | **Boolean** | Is featured | [optional] 
+**visitas** | **Number** | Ammount of visits. | [optional] 
+**arrSucursales** | [**[Subsidiary]**](Subsidiary.md) |  | [optional] 
+**arrRubros** | [**[Rubro]**](Rubro.md) |  | [optional] 
+**arrTarjetas** | [**[Card]**](Card.md) |  | [optional] 
+**distancia** | **String** | distance to subsidiary. | [optional] 
+**descuento** | **String** | Discount. | [optional] 
+**frase** | **String** | Discount text. | [optional] 
+**linkCorporativo** | **String** | Link to external URL | [optional] 
+**nombreBoton** | **String** | Button Label | [optional] 
+
+
